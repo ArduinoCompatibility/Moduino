@@ -1,16 +1,19 @@
-#include "MODUINO.h"
+#include "Moduino.h"
 
-Moduino *led;
+Moduino modi;
+LED *led;
 
 void setup()
 {
-  //led=new Moduino();
+  modi.init();
+  led=modi.modules[0];//modules[0] LED fixed(temporarily).
 }
 
 void loop()
 {
-  //led->setRGB(100,100,0);
-  //delay(500);
-  //led->setRGB(0,0,0);
-  //delay(500);
+  //simple led blink
+  led->setRGB(100,0,0);
+  delay(500);
+  led->setRGB(0,0,0);
+  delay(500);
 }

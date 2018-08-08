@@ -1,11 +1,12 @@
-#include "mcp_can.h"
+#include "Modules.h"
 
 class Moduino
 {
 private:
-	MCP_CAN *m_CAN;
+	ModiCAN modi_CAN;
 public:
+	Module *modules[8];
 	Moduino();
 	~Moduino();
-	void setRGB(byte, byte, byte);
+	void init();
 };

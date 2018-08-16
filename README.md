@@ -1,2 +1,1 @@
-# Moduino
-Luxrobo-Team2(Arduino_Compatibility)
+Queue(추후 삭제 예정)

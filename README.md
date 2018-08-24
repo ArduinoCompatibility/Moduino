@@ -17,9 +17,9 @@ getDegree() : 다이얼 모듈 회전각(0~100)에 대한 정보를 반환받습
 getClick() : 버튼 클릭 여부(0 or 100) 에 대한 정보를 반환받습니다.<br/>
 
 ## 실행 순서
-1. 연결한 모듈의 정보를 파악하기 위해 setup()에서 FindID()를 호출 및 업로드 후 Serial Monitor를 이용하여 모듈들의 ID를 확인합니다.<br/>
+1. 하드웨어 인터페이스에 MODI 연결 후 연결한 모듈의 정보를 파악하기 위해 setup()에서 FindID()를 호출하여 업로드 후 우측 상단 Serial Monitor를 이용하여 모듈들의 ID를 확인합니다.<br/>
 
-2. 전역 변수를 사용하여 모듈별 객체 포인터를 선언 후 void setup()에서 FindID addModule(ID)를 호출하여 모듈리스트에 추가 및 객체 포인터에 저장합니다.<br/>
+2. 전역 변수를 사용하여 모듈별 객체 포인터를 선언 후 void setup()에서 addModule(ID)를 호출하여 모듈리스트에 추가 및 객체 포인터에 저장합니다.<br/>
 
 3. 입력모듈이 있으면 setup()에 RequestProperty(Module*)를 호출하여 입력 수신을 활성화합니다.<br/>
 

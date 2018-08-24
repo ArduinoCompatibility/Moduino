@@ -7,14 +7,13 @@ RequestProperyt(Module*) : 연결된 모듈의 신호 출력 활성화 요청을
 ReceiveProcess() : 모듈 신호 수신 처리 함수입니다.<br/>
 
 ## 사용 가능 모듈 목록 및 모듈별 호출가능 함수
-* LED
+* LED<br/>
 setRGB(red,green,blue) : RGB(0~100)의 값을 출력하도록 요청합니다.<br/>
 
-* 다이얼
-getDegree() : 다이얼 모듈 회전각(0~100)에 대한 정보를 반환받습니다.
-<br/>
+* 다이얼<br/>
+getDegree() : 다이얼 모듈 회전각(0~100)에 대한 정보를 반환받습니다.<br/>
 
-* 버튼
+* 버튼<br/>
 getClick() : 버튼 클릭 여부(0 or 100) 에 대한 정보를 반환받습니다.<br/>
 
 ## 실행 순서

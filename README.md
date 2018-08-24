@@ -1,10 +1,10 @@
 # Moduino
 
 ## Moduino 라이브러리 함수 설명
-init() : 아두이노 환경에 필요한 설정 및 초기화가 이루어지는 함수입니다.<br/>
-FindID() : 연결된 모듈 전체에 모듈 정보 송신 요청을 보냅니다.<br/>
-RequestProperyt(Module*) : 연결된 모듈의 신호 출력 활성화 요청을 보냅니다.<br/>
-ReceiveProcess() : 모듈 신호 수신 처리 함수입니다.<br/>
+* init() : 아두이노 환경에 필요한 설정 및 초기화가 이루어지는 함수입니다.<br/>
+* FindID() : 연결된 모듈 전체에 모듈 정보 송신 요청을 보냅니다.<br/>
+* RequestProperyt(Module*) : 연결된 모듈의 신호 출력 활성화 요청을 보냅니다.<br/>
+* ReceiveProcess() : 모듈 신호 수신 처리 함수입니다.<br/>
 
 ## 사용 가능 모듈 목록 및 모듈별 호출가능 함수
 * LED<br/>
